@@ -1,0 +1,12 @@
+Page {
+  text-align: center;
+}
+
+.CopyRight {
+  color: dimgray;
+  font-size: 9pt;
+}
+
+.img {
+  margin-top: 0rpx;
+}

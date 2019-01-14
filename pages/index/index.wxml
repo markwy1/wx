@@ -1,0 +1,23 @@
+<text class="text">{{slogan}}</text>
+<image mode='widthFix' class='img' src='../../img/main2.jpg'></image>
+<button bindtap='onChange'>Change</button>
+<text class="CopyRight">{{sCopyRight}}</text>
+<view wx:if="{{length > 5}}">great than 5</view>
+<view wx:elif="{{length < 2}}">less than 2</view>
+<view wx:else>between 2 and 5</view>
+<block wx:if="{{bswitch}}">
+  <view> view1 </view>
+  <view> view2 </view>
+</block>
+
+<template name="odd">
+  <view> odd </view>
+</template>
+
+<template name="even">
+  <view> even </view>
+</template>
+
+<block wx:for="{{[1, 2, 3, 4, 5]}}">
+  <template is="{{item % 2 == 0 ? 'even' : 'odd'}}"/>
+</block>
