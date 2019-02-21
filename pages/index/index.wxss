@@ -1,0 +1,11 @@
+Page {
+  text-align: center;
+}
+
+.text {
+  color: dimgray;
+}
+
+.img {
+  margin-top: 0rpx;
+}

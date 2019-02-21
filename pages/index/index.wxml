@@ -1,0 +1,3 @@
+
+<button bindtap='onChange'>Change</button>
+<text class="text">{{doorid}}</text>

@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/index"
+  ],
+
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "youDoor",
+    "navigationBarTextStyle": "black"
+  },
+  "debug": true
+}
